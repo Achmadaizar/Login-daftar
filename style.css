@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
+button {
+    width: 200px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    animation: buttons 3s linear infinite;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes buttons {
+    0% {box-shadow: 0 0 3px 3px red;}
+    25% {box-shadow: 0 0 3px 3px green;}
+    50% {box-shadow: 0 0 3px 3px blue;}
+    75% {box-shadow: 0 0 3px 3px red;}
+    100% {box-shadow: 0 0 3px 3px red;}
+}
+
+.Kotak-login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.isi-login {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    animation: buttons 3s linear infinite;
+}
+
+h2 {
+    padding: 10px;
+    color: white;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: solid white;
+    background: none;
+    color: white;
+}
+
+a {
+    color: lightblue;
+}
+
+p {
+    color: white;
+}
